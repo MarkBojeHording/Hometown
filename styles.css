@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  background-image: url("images/Aarhus2.jpeg");
+  background-image: url("images/Aarhus4.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,8 +31,16 @@ body {
 
 h1 {
   margin: 0;
+  position: relative; /* Allows adjustment with 'top' */
+  top: -10px; /* Adjust this value to move the text up */
 }
 
 h2 {
-  margin: 10px 0 0;
+  margin: 200px 0 0;
+}
+
+h3 {
+  color: black;
+  font-size: 40px;
+  font-weight: 10px;
 }
