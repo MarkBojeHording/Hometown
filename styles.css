@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -52,14 +52,18 @@ h2 {
 
 .sights {
   background-color: #FDEEDC;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
   margin: 0 auto;
   width: 100%;
+  color: #1D3557;
+}
+
+.sights-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 .sight-item {
@@ -67,25 +71,36 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 5px;
   width: auto;
 }
 
+.sights h3 {
+  font-family: Arial, sans-serif;
+
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
 .sight-item img {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
   border-radius: 50%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0;
 }
 
 .sight-item p {
   margin: 0;
-  color: red;
+  color: #6C91BF;
 }
 
 .sight-item p strong {
   font-size: 16px;
-  color: #E63946;
+  color: #6C91BF;
 }
 
 .guide {
@@ -106,7 +121,7 @@ h2 {
 .img-Mark {
   height: 250px;
   width: 250px;
-  border-radius: 50%;
+  border-radius: 10px;
   object-fit: cover;
 }
 
